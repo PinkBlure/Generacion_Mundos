@@ -1,0 +1,41 @@
+:root {
+    --blue: #92C5FC;
+    --white: #f4f4f4;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+@media only screen and (min-width: 360px) {
+
+}
+  
+@media only screen and (min-width: 375px) {
+    
+}
+  
+@media only screen and (min-width: 720px) {
+   
+}
+  
+@media only screen and (min-width: 1366px) {
+
+}
+  
+@media only screen and ((min-width: 1440px) or (min-width: 1920px)) {
+
+    .form_ct {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--white);
+        border-radius: 1em;
+        border: 2px solid black;
+        margin: 4em 4em 4em 4em;
+        padding: 1em 2em 2em 2em;
+    }
+}
