@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>World Generator</title>
     <link rel="stylesheet" type="text/css" href="../style/index.css">
 </head>
@@ -11,65 +11,74 @@
 
         <h1>World Generator</h1>
 
-        <section>
-            <label>Map size:
-                <input name="map_size" type="number" value="64" autofocus>
+        <section class="flex-dir-colum">
+            <label class="flex-dir-row">Map size:
+                <input class="input-width" name="map_size" type="number" value="64" autofocus>
             </label>
-            <label>Max occupied area %:
-                <input name="map_size" type="number" value="80" autofocus>
+            <label class="flex-dir-row">Max occupied area %:
+                <input class="input-width" name="map_size" type="number" value="80" autofocus>
             </label>
         </section>
 
-        <section>
+        <section class="flex-dir-colum box">
             <h2>Nature</h2>
-            <label>Min zones:
+            <label class="flex-dir-colum">Min zones:
                 <input name="map_size" type="number" value="2" autofocus>
             </label>
-            <label>Max zones:
+            <label class="flex-dir-colum">Max zones:
                 <input name="map_size" type="number" value="8" autofocus>
             </label>
-            <label>Zone max size:
+            <label class="flex-dir-colum">Zone max size:
                 <input name="map_size" type="number" value="500" autofocus>
             </label>
-            <label>Total max size:
+            <label class="flex-dir-colum">Total max size:
                 <input name="map_size" type="number" value="500" autofocus>
             </label>
         </section>
 
-        <section>
+        <section class="flex-dir-colum box">
             <h2>Urban</h2>
-            <label>Min zones:
+            <label class="flex-dir-colum">Min zones:
                 <input name="map_size" type="number" value="4" autofocus>
             </label>
-            <label>Max zones:
+            <label class="flex-dir-colum">Max zones:
                 <input name="map_size" type="number" value="6" autofocus>
             </label>
-            <label>Zone max size:
+            <label class="flex-dir-colum">Zone max size:
                 <input name="map_size" type="number" value="100" autofocus>
             </label>
-            <label>Total max size:
+            <label class="flex-dir-colum">Total max size:
                 <input name="map_size" type="number" value="800" autofocus>
             </label>
         </section>
 
-        <section>
+        <section class="flex-dir-colum box">
             <h2>Commercial</h2>
-            <label>Min zones:
-                <input name="map_size" type="number" value="2" autofocus>
+            <label class="flex-dir-colum">Min zones:
+                <input class="input-width" name="map_size" type="number" value="2" autofocus>
             </label>
-            <label>Max zones:
-                <input name="map_size" type="number" value="8" autofocus>
+            <label class="flex-dir-colum">Max zones:
+                <input class="input-width"class="input-width" name="map_size" type="number" value="8" autofocus>
             </label>
-            <label>Zone max size:
-                <input name="map_size" type="number" value="50" autofocus>
+            <label class="flex-dir-colum">Zone max size:
+                <input class="input-width" name="map_size" type="number" value="50" autofocus>
             </label>
-            <label>Total max size:
-                <input name="map_size" type="number" value="200" autofocus>
+            <label class="flex-dir-colum">Total max size:
+                <input class="input-width" name="map_size" type="number" value="200" autofocus>
             </label>
         </section>
 
-        <button name="generate">Generate</button>
+        <section class="">
+            <button name="generate">Generate new map</button>
+            <button name="generate">Save current map</button>
+            <button name="generate">Load map</button>
+        </section>
         
     </form>
+
+    <section>
+        <h1>Display</h1>
+        <article>Aqui va la foto</article>
+    </section>
 </body>
 </html>
