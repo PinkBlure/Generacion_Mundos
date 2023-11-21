@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --blue: #92C5FC;
     --white: #f4f4f4;
 }
@@ -10,6 +10,35 @@
 body {
     background-color: var(--blue);
 }
+
+.flex-dir-colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-dir-row {
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    justify-content: space-between;
+}
+
+.input-width {
+    width: 4rem;
+}
+
+/* .box {
+    width: 15rem;
+    height: fit-content;
+    background-color: var(--white);
+    border: 2px solid black;
+    padding: 0 1em 1em 1em;
+} */
+
+/*
+
 
 @media only screen and (min-width: 360px) {
 
@@ -38,4 +67,4 @@ body {
         margin: 4em 4em 4em 4em;
         padding: 1em 2em 2em 2em;
     }
-}
+} */
